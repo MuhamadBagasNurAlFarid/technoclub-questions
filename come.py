@@ -37,5 +37,16 @@ for i in range(jumlah_penumpang):
     
     # lanjutkan code dibawah ini
     
+   # Membuat dictionary untuk penumpang
+    penumpang_dict = {
+        'nama': nama,
+        'umur': umur,
+        'asal planet': asal_planet
+    }
+    
+    # Menambahkan dictionary ke dalam list penumpang
+    penumpang.append(penumpang_dict)
+
+#ini pake chatgpt
 print(penumpang)
 

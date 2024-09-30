@@ -14,4 +14,10 @@ Output:
 """
 angka = [4, 2, 1, 3, 5]
 
+angka_terurut = sorted(angka)
+
+print(angka_terurut)
+
+#pake chat gpt
+
 # lanjutkan code dibawah ini
